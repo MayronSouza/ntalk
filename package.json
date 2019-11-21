@@ -1,0 +1,20 @@
+{
+  "name": "ntalk",
+  "version": "0.0.1",
+  "description": "Node Talk - Agenda de Contatos",
+  "private": false,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "cookie-parser": "~1.4.4",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-session": "^1.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}

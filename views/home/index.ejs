@@ -1,0 +1,29 @@
+<% include ../header %>
+<div class="container-fluid">
+    <div class="clearfix hero-unit">
+        <header class="row-fluid text-center">
+            <h1>Ntalk</h1>
+            <h4>Bem-vindo!</h4>
+        </header>
+        <section class="text-center">
+            <form action="/entrar" method="post">
+                <div class="form-group row">
+                    <label for="inputNome" class="m-1">Nome</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="inputNome" name="usuario[nome]"
+                            placeholder="Digite seu nome..."  class="form-control">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputEmail" class="m-1">E-mail</label>
+                    <div class="col-sm-4">
+                            <input type="email" id="inputEmail" name="usuario[email]"
+                                placeholder="Digite seu e-mail" class="form-control">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-success">Entrar</button>
+            </form>
+        </section>
+    </div>
+</div>
+<% include ../footer %>
